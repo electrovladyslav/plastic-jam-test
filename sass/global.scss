@@ -10,7 +10,5 @@ html {
 
 body {
   min-height: 100%;
-}
-
-.wrapper {
+  background-color: lighten($baseColor, 30%);
 }
