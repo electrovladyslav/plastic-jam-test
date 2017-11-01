@@ -1,3 +1,6 @@
+(function () {
+'use strict';
+
 const SERVER_URL = `https://swapi.co/api/people/`;
 
 /*---Model---*/
@@ -53,5 +56,9 @@ loadData().then((data) => {
       event.preventDefault();
       clickHandler(event);
     });
-  })
+  });
 });
+
+}());
+
+//# sourceMappingURL=main.js.map
